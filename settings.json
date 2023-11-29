@@ -1,0 +1,71 @@
+{
+  // editor
+  "editor.fontSize": 20,
+  "editor.fontWeight": "50",
+  "editor.fontamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+
+      // {
+      //   "scope": "constant.numeric",
+      //   "settings": {
+      //     "foreground": "#ff0000" // Red color for numeric constants
+      //   }
+      // },
+      // {
+      //   "scope": "support.function",
+      //   "settings": {
+      //     "fontStyle": "italic",
+      //     "foreground": "#0066cc" // Blue color for function names
+      //   }
+      // },
+      {
+        "scope": "meta.brace",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ffa500" // Orange color for braces
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 16,
+
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Learn with Sumit - Vintage",
+  "workbench.iconTheme": "vscode-icons",
+  // terminal customization
+
+  "editor.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace"
+}
+ 
